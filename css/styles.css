@@ -569,6 +569,8 @@ input:hover{
     }
 }
 
+/* I_PAD_PRO */
+
 @media (height:1366px), (width:1024px){
 
     .form h3{
@@ -600,25 +602,44 @@ input:hover{
     
 }
 
-@media (height:1024px), (width:768px){
-    
-    /* .profileImageWrapper { 
+/* I_PAD_AIR */
+
+@media (height:1180px), (width:820px){
+
+    .form h3{
+        font-size: 1.25rem;
+
+    }
+    .profileImageWrapper { 
         height: 30%;
     }
     .formContentWrapper{
-        height: 65vh;
+        height: 80vh;
         position: absolute;
-        top: 20%;
+        top: 12%;
     }
+
+    input{
+        margin: 7px 5px;
+        height: 35px;
+    }
+
     .footer{
         height: 10vh;
+        bottom: 0;
 
     }
 
     .coverPage{
-        height: 15vh;
-    } */
+        height: 18vh;
+    }
+    
+}
 
+/* I_PAD_MINI */
+
+@media (height:1024px), (width:768px){
+    
     .footer{
         height: 14vh;
     }
